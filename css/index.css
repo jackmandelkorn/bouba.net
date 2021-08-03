@@ -69,6 +69,14 @@ body {
   animation: 2s linear 0s infinite running fall-counterclockwise;
 }
 
+.clockwise.rose {
+  animation: 2s linear 0s infinite running fall-clockwise-rose;
+}
+
+.counterclockwise.rose {
+  animation: 2s linear 0s infinite running fall-counterclockwise-rose;
+}
+
 
 @keyframes fall-clockwise {
   from {
@@ -91,5 +99,29 @@ body {
   to {
     top: 120vh;
     transform: rotate(-20deg);
+  }
+}
+
+@keyframes fall-clockwise-rose {
+  from {
+    top: -20vh;
+    transform: rotate(-30deg);
+  }
+
+  to {
+    top: 120vh;
+    transform: rotate(30deg);
+  }
+}
+
+@keyframes fall-counterclockwise-rose{
+  from {
+    top: -20vh;
+    transform: rotate(30deg);
+  }
+
+  to {
+    top: 120vh;
+    transform: rotate(-30deg);
   }
 }

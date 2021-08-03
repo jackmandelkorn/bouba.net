@@ -10,7 +10,7 @@ const HEARTS = {
   },
   size: {
     min: 2,
-    max: 6
+    max: 7
   }
 }
 
