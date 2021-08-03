@@ -33,6 +33,12 @@ body {
   right: calc(40vw - 100px);
 }
 
+.b-3 {
+  height: 20vh;
+  bottom: 27vh;
+  left: 0px;
+}
+
 .container {
   position: fixed;
   z-index: 2;
