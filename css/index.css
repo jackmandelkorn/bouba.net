@@ -52,8 +52,39 @@ body {
 }
 
 .heart {
-  top: 30vh;
-  right: calc(40vw - 60px);
-  height: 5vh;
-  transform: rotate(166deg);
+  top: -20vh;
+  z-index: -1;
+}
+
+.clockwise {
+  animation: 2s linear 0s infinite running fall-clockwise;
+}
+
+.counterclockwise {
+  animation: 2s linear 0s infinite running fall-counterclockwise;
+}
+
+
+@keyframes fall-clockwise {
+  from {
+    top: -20vh;
+    transform: rotate(-20deg);
+  }
+
+  to {
+    top: 120vh;
+    transform: rotate(400deg);
+  }
+}
+
+@keyframes fall-counterclockwise {
+  from {
+    top: -20vh;
+    transform: rotate(400deg);
+  }
+
+  to {
+    top: 120vh;
+    transform: rotate(-20deg);
+  }
 }
