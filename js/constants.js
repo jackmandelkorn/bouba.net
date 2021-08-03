@@ -10,6 +10,22 @@ const HEARTS = {
   },
   size: {
     min: 2,
-    max: 7
+    max: 6
+  }
+}
+
+const ROSES = {
+  quantity: 5,
+  speed: {
+    min: 2,
+    max: 4
+  },
+  delay: {
+    min: 0,
+    max: 10
+  },
+  size: {
+    min: 12,
+    max: 16
   }
 }

@@ -53,6 +53,11 @@ body {
 
 .heart {
   top: -20vh;
+  z-index: -2;
+}
+
+.rose {
+  top: -20vh;
   z-index: -1;
 }
 
