@@ -64,10 +64,11 @@ body {
 }
 
 .hedge {
-  height: 20vh;
-  bottom: -2vh;
-  left: -4vw;
-  transform: rotate(-15deg);
+  height: 18vh;
+  bottom: 35vh;
+  right: -40px;
+  transform: rotate(-90deg);
+  z-index: 2;
 }
 
 .heart {
