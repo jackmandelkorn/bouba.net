@@ -19,7 +19,7 @@ body {
 
 .b-0 {
   bottom: 0px;
-  right: calc(40vw - 170px);
+  right: calc(40vw - 200px);
 }
 
 .b-1 {
@@ -61,6 +61,13 @@ body {
 
 .ily {
   height: 25vh;
+}
+
+.hedge {
+  height: 20vh;
+  bottom: -2vh;
+  left: -4vw;
+  transform: rotate(-15deg);
 }
 
 .heart {
